@@ -297,6 +297,8 @@ configure_file(
 
 include(CMakeParseArguments)
 
+set(CMAKE_CXX_STANDARD 11)
+
 function(clang_tablegen)
   # Syntax:
   # clang_tablegen output-file [tablegen-arg ...] SOURCE source-file
